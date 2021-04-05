@@ -1,0 +1,582 @@
+                                @import url("https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 1,700 & display = swap");
+                                @import url("https://fonts.googleapis.com/css2? family = Revalia & display = swap");
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                
+                                .main {
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                
+                                .first_screen {
+                                    background-color: #EEEFF1;
+                                    height: 700px;
+                                    width: 1920px;
+                                }
+                                
+                                .first_screenCont_nav {
+                                    width: 1920px;
+                                    height: 100px;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .first_screenCont_nav_text {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    width: 600px;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .first_screenCont_nav_textP {
+                                    display: block;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    letter-spacing: 0.1em;
+                                    /* Accent */
+                                    color: #34547A;
+                                }
+                                
+                                .first_screenCont_nav_img_1 {
+                                    display: block;
+                                    font-family: Revalia;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 57.6px;
+                                    line-height: 71px;
+                                    color: #34547A;
+                                }
+                                
+                                .first_screenCont_2_right_text_top {
+                                    display: block;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 48px;
+                                    line-height: 79px;
+                                    color: #000000;
+                                }
+                                
+                                .first_screenCont_2_right_text_medium {
+                                    display: block;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    color: #727272;
+                                }
+                                
+                                .first_screenCont_2_right_text_bottonP {
+                                    display: block;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    text-align: center;
+                                    letter-spacing: 0.1em;
+                                    color: #FFFFFF;
+                                    background-color: #34547A;
+                                }
+                                
+                                .first_screenCont_2_right {
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 600px;
+                                    justify-content: space-around;
+                                }
+                                
+                                .first_screenCont2_img_2 {
+                                    display: block;
+                                }
+                                
+                                .first_screenCont_2 {
+                                    display: flex;
+                                    height: 250px;
+                                    justify-content: space-around;
+                                }
+                                
+                                .first_screenCont_2_right_text_botton {
+                                    width: 250px;
+                                }
+                                
+                                .AboutMeCont {
+                                    width: 540px;
+                                    height: 147px;
+                                    background-color: chartreuse;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-between;
+                                }
+                                
+                                .AboutMeContTextTop {
+                                    display: block;
+                                    /* h2 */
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 32px;
+                                    line-height: 37px;
+                                    text-align: center;
+                                    color: #000000;
+                                }
+                                
+                                .AboutMeContTextBottom {
+                                    display: block;
+                                    /* p */
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    text-align: center;
+                                    color: #727272;
+                                }
+                                
+                                .about_me {
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 1920px;
+                                    height: 400px;
+                                    align-items: center;
+                                }
+                                
+                                .numbers {
+                                    width: 1920px;
+                                    height: 250px;
+                                    background: #34547A;
+                                }
+                                
+                                .numbersImg {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding-top: 90px;
+                                }
+                                
+                                .numbersImgLeft {
+                                    display: flex;
+                                }
+                                
+                                .numbersImgLeft_1 {
+                                    display: block;
+                                    width: 50px;
+                                    height: 50px;
+                                }
+                                
+                                .numbersImgTextTopP {
+                                    display: block;
+                                }
+                                
+                                .skills {
+                                    width: 1920px;
+                                    height: 600px;
+                                }
+                                
+                                .skillsCon {
+                                    display: flex;
+                                    width: 1920px;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    padding-top: 50px;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .skillsConMenuText1 {
+                                    display: block;
+                                    height: 30px;
+                                    /* h2 */
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 32px;
+                                    line-height: 37px;
+                                    color: #000000;
+                                }
+                                
+                                .skillsConMenuText2 {
+                                    display: block;
+                                    height: 15px;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    color: #727272;
+                                }
+                                
+                                .skillsConMenuText3 {
+                                    width: 128px;
+                                    height: 15px;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    color: #727272;
+                                }
+                                
+                                .skillsConMenuText4 {
+                                    width: 128px;
+                                    height: 15px;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    color: #727272;
+                                }
+                                
+                                #rectangle {
+                                    width: 445px;
+                                    height: 4px;
+                                    background: #C4C4C4;
+                                }
+                                
+                                #rectangle2 {
+                                    width: 445px;
+                                    height: 4px;
+                                    background: #C4C4C4;
+                                }
+                                
+                                #rectangle3 {
+                                    width: 445px;
+                                    height: 4px;
+                                    background: #C4C4C4;
+                                }
+                                
+                                #rectangle1_1 {
+                                    width: 349.36px;
+                                    height: 4px;
+                                    background: #34547A;
+                                    transform: rotate(-0.06deg);
+                                    margin-top: -4px;
+                                }
+                                
+                                #rectangle2_2 {
+                                    width: 350px;
+                                    height: 4px;
+                                    background: #34547A;
+                                    margin-top: -4px;
+                                }
+                                
+                                #rectangle3_3 {
+                                    width: 350px;
+                                    height: 4px;
+                                    background: #34547A;
+                                    margin-top: -4px;
+                                }
+                                
+                                .rectangle4 {
+                                    width: 555px;
+                                    height: 450px;
+                                    background: url(../img/face.png) #C4C4C4;
+                                    background-size: cover;
+                                }
+                                
+                                .skillConM {
+                                    display: flex;
+                                    width: 555px;
+                                    height: 300px;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                }
+                                
+                                .video {
+                                    width: 1920px;
+                                    background: #EEEFF1;
+                                }
+                                
+                                .videoCon {
+                                    display: flex;
+                                    width: 1920px;
+                                    height: 1004px;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                }
+                                
+                                .videoConH2 {
+                                    display: block;
+                                    width: 403px;
+                                    height: 30px;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 32px;
+                                    line-height: 37px;
+                                    text-align: center;
+                                    color: #000000;
+                                }
+                                
+                                .videoConP {
+                                    display: block;
+                                    width: 540px;
+                                    height: 67px;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    text-align: center;
+                                    color: #727272;
+                                }
+                                
+                                .videoConFrame {
+                                    width: 1110px;
+                                    height: 600px;
+                                    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/Rectangle\ 5.png);
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                
+                                .project {
+                                    width: 1920px;
+                                    height: 960px;
+                                }
+                                
+                                .projectCon1Img {
+                                    padding-left: 190px;
+                                    padding-top: 190px;
+                                }
+                                
+                                .projectCon {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .projectCon1 {
+                                    width: 480px;
+                                    height: 480px;
+                                }
+                                
+                                .projectCon2 {
+                                    width: 480px;
+                                    height: 480px;
+                                }
+                                
+                                .projectCon div:nth-of-type(2n) {
+                                    background-image: url(/img/laptop.png);
+                                }
+                                
+                                .projectCon div:nth-of-type(2n+1) {
+                                    background-image: url(/img/Rectangle\ 7.png);
+                                }
+                                
+                                .projectCon1Img a:hover {
+                                    color: #0085a1;
+                                }
+                                
+                                .clients {
+                                    width: 1920px;
+                                    height: 130px;
+                                    background-color: #E5E5E5;
+                                }
+                                
+                                .clientsCon {
+                                    display: inline-flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                    padding-left: 160px;
+                                }
+                                
+                                .clientsConFoto {
+                                    color: darkblue;
+                                    width: 255px;
+                                    height: 120px;
+                                    /* background: url(/img/micro.png);*/
+                                }
+                                
+                                .forms {
+                                    width: 1920px;
+                                    height: 762px;
+                                    background: #EEEFF1;
+                                }
+                                
+                                .formsCon {
+                                    width: 1920px;
+                                    height: 762px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                }
+                                
+                                .formsConTextTop {
+                                    width: 406px;
+                                    height: 30px;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 32px;
+                                    line-height: 37px;
+                                    text-align: center;
+                                    color: #000000;
+                                }
+                                
+                                .formsConTextMedium {
+                                    width: 540px;
+                                    height: 67px;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    text-align: center;
+                                    color: #727272;
+                                }
+                                
+                                .formsConTextBut {
+                                    width: 190px;
+                                    height: 55px;
+                                    background: #34547A;
+                                    text-align: center;
+                                    padding-top: 27px;
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 14px;
+                                    line-height: 23px;
+                                    letter-spacing: 0.15em;
+                                }
+                                
+                                .footers {
+                                    width: 1920px;
+                                    height: 151px;
+                                    background: #34547A;
+                                }
+                                
+                                .footerText {
+                                    width: 1920px;
+                                    height: 151px;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                }
+                                
+                                h4 {
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 21px;
+                                    line-height: 25px;
+                                    color: #FFFFFF;
+                                }
+                                
+                                h5 {
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 13px;
+                                    line-height: 21px;
+                                    color: #FFFFFF;
+                                }
+                                
+                                @media screen and (max-width: 700px) {
+                                    .first_screen {
+                                        background-color: darkblue;
+                                        height: auto;
+                                        width: auto;
+                                    }
+                                    .first_screenCont_nav_text {
+                                        flex-direction: column;
+                                        height: auto;
+                                        width: auto;
+                                    }
+                                    .first_screenCont_nav {
+                                        flex-direction: column;
+                                        height: auto;
+                                        width: auto;
+                                    }
+                                    .first_screenCont_2 {
+                                        flex-direction: column;
+                                        height: auto;
+                                        width: auto;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    .first_screenCont {
+                                        display: flex;
+                                        flex-direction: column;
+                                        height: auto;
+                                        width: auto;
+                                    }
+                                    .first_screenCont_2_right {
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    .about_me {
+                                        width: auto;
+                                        height: auto;
+                                    }
+                                    .numbers {
+                                        background: #28dd73;
+                                        width: auto;
+                                        height: auto;
+                                    }
+                                    .numbersImg {
+                                        margin: 0;
+                                        padding: 0;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    .skills {
+                                        width: auto;
+                                        height: auto;
+                                    }
+                                    .skillsCon {
+                                        width: auto;
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+                                    .video {
+                                        width: auto;
+                                        background: #2459ce;
+                                    }
+                                    .videoCon {
+                                        width: auto;
+                                        height: auto;
+                                    }
+                                    .videoConFrame {
+                                        width: 500px;
+                                        height: 300px;
+                                    }
+                                    .project {
+                                        width: auto;
+                                        height: auto;
+                                    }
+                                    .projectCon1 {
+                                        width: 80px;
+                                        height: 80px;
+                                    }
+                                    .clients {
+                                        display: none;
+                                    }
+                                    .forms {
+                                        width: auto;
+                                        height: auto;
+                                        background: #24c4ae;
+                                    }
+                                    .formsCon {
+                                        width: auto;
+                                        height: auto;
+                                    }
+                                    .footers {
+                                        width: auto;
+                                        height: auto;
+                                        background: #b92187;
+                                    }
+                                    .footerText {
+                                        width: auto;
+                                        height: auto;
+                                    }
+                                }
